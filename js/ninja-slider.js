@@ -2,15 +2,15 @@
 var nsOptions =
 {
     sliderId: "ninja-slider",
-    transitionType: "fade",
+    transitionType: "slide",
     autoAdvance: true,
-    rewind: true,
+    rewind: false,
     delay: "default",
-    transitionSpeed: 2000,
-    aspectRatio: "2:1", // "?:100%" is for responsive scaling based on window height
+    transitionSpeed: "default",
+    aspectRatio: "9:6", // "?:100%" is for responsive scaling based on window height
     initSliderByCallingInitFunc: false,
     shuffle: false,
-    startSlideIndex: 0, //0-based
+    startSlideIndex: 0,
     navigateByTap: true,
     pauseOnHover: false,
     keyboardNav: true,
