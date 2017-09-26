@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Plenary Speakers Profiles</h2>
+
+<div class="container">
+  <img src="../img/client-1.jpg" alt="Avatar" style="width:90px">
+  <p><span>Dilip Krishnaswamy</span>Ph. D. (Electrical Engineering), University of Illinois at Urbana-Champaign, 1997.Executive Leadership Certificate, Cornell University, 2016.</p>
+  <p><b><img src="../img/quote_sign_left.png" alt=""></b> Dr. D.K. is currently working as a Senior Scientist at IBM Research in Bangalore. He received the PhD degree in electrical engineering from the University of Illinois at Urbana-Champaign. He has worked as a Platform Architect at Intel, and as a Senior Staff Researcher in the Office of the Chief Scientist at Qualcomm, and has taught at the University of California, Davis. He served as the Associate Editor-in-Chief of IEEE Wireless Communications from 2009-2014. He serves as a co-chair for the IoT PIC (Professional Interest Community) at IBM Research. He chairs the committee for the annual Pat Goldberg IBM Research CS/EE/Math best paper competition (since 2015). He in an inventor on 55 granted US patents, and has published 60+ papers with 3 best paper awards. He is a BTech (electronics and communications engineering) alum of IIT Madras.
+  <small><img src="../img/quote_sign_right.png" alt=""></small></p>
+</div>
+
+
+
+<div class="container">
+  <img src="../img/client-2.jpg" alt="Avatar" style="width:90px">
+  <p><span >Jayavardhana Gubbi</span>Senior scientist in TCS Innovation Labs<br>
+PhD University of Melbourne, Australia</p>
+  <p><b><img src="../img/quote_sign_left.png" alt=""></b> Jayavardhana Gubbi received the Bachelor of Engineering degree from Bangalore University in 2000, Ph.D. degree from the University of Melbourne, Australia, in 2007. For three years, he was a Research Assistant at the Indian Institute of Science (IISc), Bengaluru, where he was engaged in speech technology for Indian languages. Between 2007 and 2015, he worked as Postdoctoral Research Fellow, an Australian Postdoctoral Fellow - Industry (APDI) and Senior Research Fellow working on several industry linkage grants in biomedical signal processing, video processing and Internet of Things. He has co-authored more than 65 peer reviewed papers and filed 5 patents. He is currently a senior scientist in TCS Innovation Labs - Bengaluru. <small><img src="../img/quote_sign_right.png" alt=""></small></p>
+</div>
+
+</body>
+</html>
+
